@@ -7,37 +7,38 @@ export default class ThemeChanger {
   themeChanger = document.createElement("div");
   selectedThemeId = 2;
 
-  // all themes, hardcorded currently
+  // all themes, hardcoded currently
   THEMES = [
+    "bigsur",
     "black-ice",
+    "capitane",
+    "catppuccin",
     "carnival",
     "cotton-candy",
     "desert-sky",
     "dracula",
     "ferns",
     "forest",
+    "gold-hunter",
     "gruvbox",
     "intrigue",
     "just-red",
+    "MonokaiPro",
+    "monterey",
     "neon-pink-dark",
     "neon",
+    "nord",
     "orange-dark",
+    "programiz",
+    "sierra",
     "slick-red",
+    "storm",
     "this-ones-good",
     "tokyo-night",
     "tomorrow-night-eighties",
     "void",
-    "water-fire",
-    "storm",
-    "gold-hunter",
-    "sierra",
-    "capitane",
-    "bigsur",
-    "monterey",
-    "nord",
-    "MonokaiPro",
-    "Programiz",
     "wal",
+    "water-fire",
   ];
 
   themeCssLink = document.querySelector("link[href='../styles/colors.css']");
