@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
     --background: #1e1e2e;
     --foreground: #cdd6f4;
@@ -19,4 +21,9 @@
     --color13: #89b4fa;
     --color14: #cba6f7;
     --color15: #f2cdcd;
+}
+* {
+    font-family: 'Jetbrains Mono' !important;
+    font-optical-sizing: auto;
+    ;
 }
